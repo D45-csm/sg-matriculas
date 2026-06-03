@@ -8,5 +8,10 @@
         "id_estudiante": 3,
         "nombre": "juana",
         "carrera": "sistemas"
+    },
+    {
+        "id_estudiante": 4,
+        "nombre": "Alberto",
+        "carrera": "tecnico en sistemas"
     }
 ]

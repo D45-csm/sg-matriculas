@@ -22,5 +22,13 @@
             107
         ],
         "periodo_academico": "2006-2"
+    },
+    {
+        "id_matricula": 4,
+        "id_estudiante": 2,
+        "id_curso": [
+            107
+        ],
+        "periodo_academico": "2008"
     }
 ]
