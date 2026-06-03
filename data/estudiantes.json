@@ -1,12 +1,12 @@
 [
     {
-        "id_estudiante": 1,
-        "nombre": "Daniela",
-        "carrera": "ADSO"
-    },
-    {
         "id_estudiante": 2,
         "nombre": "Daniel",
         "carrera": "topografia"
+    },
+    {
+        "id_estudiante": 3,
+        "nombre": "juana",
+        "carrera": "sistemas"
     }
 ]
