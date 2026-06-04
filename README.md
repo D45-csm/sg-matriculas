@@ -14,12 +14,12 @@
 ## Descripcion general
 
 ### Entidades 
-***estudiantes**
+* **estudiantes**
  *id del estudiante: int
  *nombre str:
  *carrera str:
 
-***cursos**
+* **cursos**
  *id del curso: int
  *nombre del curso: str
  *numero de creditos: int
@@ -31,25 +31,21 @@
  * periodo academico: str
 
 ### Modulos del proyecto:
--modulo de estudiantes👨‍🎓
--modulo de cursos 📖🔬
--matriculas ✏️
--guardar y cargar datos
+* modulo de estudiantes👨‍🎓
+* modulo de cursos 📖🔬
+* matriculas ✏️
+* guardar y cargar datos 🔽
 
 ### Descripcion detallada
 Este es un sistema integral diseñado para **optimizar el control académico**, permitiendo la gestión eficiente de estudiantes 👨‍🎓 (registro, listar estudiantes,cantidad de creditos), la administración de cursos 🔬📔(si estan disponibles, agregar o eliminar cursos) y el proceso de matrículas (asignación de alumnos a cursos), tambien dando un campo visual 👀 de la relacion entre estudiantes y cursos, asi centralizando la información para facilitar la toma de decisiones y el seguimiento administrativo.
 
 
-## formato de datos ℹ️
+## Formato de datos ℹ️
 los datos se guardan en 3 archivos json, que son estudiantes, cursos y matriculas, cada uno sigue la misma estructura:
 
 **lista**[
 
-  * **diccionario(registro)**{
-
-   * **datos(clave:valor)**
-
-   }
+  * **diccionario(registro)**{ **datos(clave:valor)**}
 
 ]
 
