@@ -1,5 +1,10 @@
 [
     {
+        "id_estudiante": 1,
+        "nombre": "sofia",
+        "carrera": "derecho"
+    },
+    {
         "id_estudiante": 2,
         "nombre": "Daniel",
         "carrera": "topografia"
