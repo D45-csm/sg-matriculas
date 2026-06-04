@@ -1,5 +1,6 @@
 import json
 from rich.console import Console 
+
 console = Console()
 
 # ---GUARDADO DE DATOS ---

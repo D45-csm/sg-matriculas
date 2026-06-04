@@ -1,34 +1,17 @@
 [
-    {
-        "id_matricula": 1,
-        "id_estudiante": 1,
-        "id_curso": [
-            101
-        ],
-        "periodo_academico": "2026-2"
-    },
-    {
-        "id_matricula": 2,
-        "id_estudiante": 2,
-        "id_curso": [
-            105
-        ],
-        "periodo_academico": "2008-4"
-    },
-    {
-        "id_matricula": 3,
-        "id_estudiante": 1,
-        "id_curso": [
-            107
-        ],
-        "periodo_academico": "2006-2"
-    },
-    {
-        "id_matricula": 4,
-        "id_estudiante": 2,
-        "id_curso": [
-            107
-        ],
-        "periodo_academico": "2008"
-    }
+  {
+    "id_estudiante": 1,
+    "id_curso": [101, 102],
+    "periodo_academico": "2026-1"
+  },
+  {
+    "id_estudiante": 2,
+    "id_curso": [101],
+    "periodo_academico": "2026-1"
+  },
+  {
+    "id_estudiante": 3,
+    "id_curso": [101, 102],
+    "periodo_academico": "2026-1"
+  }
 ]

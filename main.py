@@ -1,5 +1,6 @@
 from modules.crud_estudiantes import menu_gestion_estudiantes, ver_cursos_estudiante
 from modules.matriculas import matricular_estudiante
+from modules.crud_cursos import menu_gestion_cursos, ver_creditos_estudiante, ver_estudiantes_de_curso
 from rich.console import Console
 from rich.panel import Panel
 from rich import box
@@ -36,7 +37,7 @@ def main():
                 menu_gestion_estudiantes()
 
             case "2":
-                console.print("[bold blue]Accediendo a Gestion de cursos...[/bold blue]")
+                menu_gestion_cursos()
 
             case "3":
                 console.print("[bold blue]PROCESO DE MATRICULA DE UN ESTUDIANTE[/bold blue]")
@@ -45,10 +46,10 @@ def main():
                 ver_cursos_estudiante()
 
             case "5":
-                console.print("[bold blue]Cargando estudiantes del curso...[/bold blue]")
-
+                ver_estudiantes_de_curso()
+                
             case "6":
-                console.print("[bold blue]Calculando creditos totales...[/bold blue]")
+                ver_creditos_estudiante()
 
             case "0":
                 console.print("[bold red]Saliendo del sistema...[/bold red]")
