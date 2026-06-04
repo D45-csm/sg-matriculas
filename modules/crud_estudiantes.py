@@ -12,30 +12,23 @@ def crear_estudiante():
 
     while True:
         nombre = input("Ingrese el nombre: ").strip()
-        if nombre == "":
-            console.print("[bold red]✖ El nombre no puede estar vacio.[/bold red]")
+        if not nombre:
+            console.print("[bold red]✖ El nombre no puede estar vacío.[/bold red]")
             continue
-        repetido = False
-        for estudiante in datos:
-            if estudiante["nombre"].lower() == nombre.lower():
-                repetido = True
-                break
-        if repetido == True:
+        if any(est["nombre"].lower() == nombre.lower() for est in datos):
             console.print("[bold red]✖ Ese estudiante ya existe.[/bold red]")
-        else:
-            break
+            continue
+        break
 
     while True:
         carrera = input("Ingrese la carrera: ").strip()
-        if carrera == "":
-            console.print("[bold red]✖ La carrera no puede estar vacia.[/bold red]")
-        else:
-            break
+        if not carrera:
+            console.print("[bold red]✖ La carrera no puede estar vacía.[/bold red]")
+            continue
+        break
 
-    nuevo_id = 1
-    for estudiante in datos:
-        if estudiante["id_estudiante"] >= nuevo_id:
-            nuevo_id = estudiante["id_estudiante"] + 1
+    # Generar ID único
+    nuevo_id = max([est["id_estudiante"] for est in datos], default=0) + 1
 
     nuevo_estudiante = {
         "id_estudiante": nuevo_id,
@@ -47,6 +40,7 @@ def crear_estudiante():
     guardar_datos("sg-matriculas/data/estudiantes.json", datos)
 
     console.print("[bold green]✔ Estudiante creado correctamente.[/bold green]")
+
 
 
 def mostrar_estudiantes():
@@ -219,4 +213,3 @@ def menu_gestion_estudiantes():
                 break
             case _:
                 console.print("[bold red]Opcion no valida.[/bold red]")
-                
