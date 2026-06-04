@@ -23,5 +23,10 @@
         "id_estudiante": 7,
         "nombre": "paulina",
         "carrera": "derecho"
+    },
+    {
+        "id_estudiante": 8,
+        "nombre": "manuela",
+        "carrera": "contaduria"
     }
 ]
