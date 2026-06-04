@@ -13,5 +13,15 @@
         "id_estudiante": 4,
         "nombre": "Alberto",
         "carrera": "tecnico en sistemas"
+    },
+    {
+        "id_estudiante": 5,
+        "nombre": "aqsdfghnm",
+        "carrera": "redssdvscsxesesdf"
+    },
+    {
+        "id_estudiante": 6,
+        "nombre": "sebas",
+        "carrera": "quimica"
     }
 ]
