@@ -168,14 +168,43 @@ def ver_creditos_estudiante() -> None:
 # MENÚ DE GESTIÓN DE CURSOS
 # ==========================
 def menu_gestion_cursos():
-    """Menú principal para gestionar cursos y ejecutar las funciones disponibles."""
-    opciones = {
-        "1": crear_curso,
-        "2": listar_cursos,
-        "3": actualizar_curso,
-        "4": eliminar_curso,
-        "5": ver_estudiantes_de_curso,
-        "6": ver_creditos_estudiante  # Aquí se ejecuta el reto final
-    }
     while True:
-        console.print
+        menu_texto = (
+            "[bold cyan]1.[/bold cyan] Crear curso\n"
+            "[bold cyan]2.[/bold cyan] Ver lista de cursos\n"
+            "[bold cyan]3.[/bold cyan] Actualizar curso\n"
+            "[bold cyan]4.[/bold cyan] Eliminar curso\n"
+            "[bold cyan]5.[/bold cyan] Ver estudiantes de un curso\n"
+            "[bold cyan]6.[/bold cyan] Ver creditos de un estudiante\n"
+            "[bold cyan]7.[/bold cyan] Volver al menu principal"
+        )
+
+        console.print("\n")
+        console.print(
+            Panel(
+                menu_texto,
+                title="[bold cyan]📚 GESTION DE CURSOS[/bold cyan]",
+                border_style="cyan",
+                width=45
+            )
+        )
+
+        opcion = input("\nSeleccione una opcion: ").strip()
+
+        match opcion:
+            case "1":
+                crear_curso()
+            case "2":
+                listar_cursos()
+            case "3":
+                actualizar_curso()
+            case "4":
+                eliminar_curso()
+            case "5":
+                ver_estudiantes_de_curso()
+            case "6":
+                ver_creditos_estudiante()
+            case "7":
+                break
+            case _:
+                console.print("[bold red]Opcion no valida.[/bold red]")
