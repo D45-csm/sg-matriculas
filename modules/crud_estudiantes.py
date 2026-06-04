@@ -3,6 +3,7 @@ from rich.table import Table, box
 from rich.panel import Panel
 from modules.guardar_cargar_datos import cargar_datos, guardar_datos
 
+# Se crea y almacena una instancia de Console para mostrar texto con estilos
 console = Console()
 
 def crear_estudiante():
@@ -151,7 +152,7 @@ def ver_cursos_estudiante():
                 existe_estudiante = True
                 break
 
-        if existe_estudiante:
+        if existe_estudiante == True:
             break
         console.print("[bold red]✖ El ID de estudiante no existe. Intente de nuevo.[/bold red]")
 
