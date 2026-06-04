@@ -1,37 +1,37 @@
 [
-    {
-        "id_estudiante": 1,
-        "nombre": "sofia",
-        "carrera": "derecho"
-    },
-    {
-        "id_estudiante": 2,
-        "nombre": "Daniel",
-        "carrera": "topografia"
-    },
-    {
-        "id_estudiante": 3,
-        "nombre": "juana",
-        "carrera": "sistemas"
-    },
-    {
-        "id_estudiante": 4,
-        "nombre": "Alberto",
-        "carrera": "tecnico en sistemas"
-    },
-    {
-        "id_estudiante": 6,
-        "nombre": "sebas",
-        "carrera": "quimica"
-    },
-    {
-        "id_estudiante": 7,
-        "nombre": "paulina",
-        "carrera": "derecho"
-    },
-    {
-        "id_estudiante": 8,
-        "nombre": "manuela",
-        "carrera": "contaduria"
-    }
+  {
+    "id_estudiante": 1,
+    "nombre": "sofia",
+    "carrera": "derecho"
+  },
+  {
+    "id_estudiante": 2,
+    "nombre": "Daniel",
+    "carrera": "topografia"
+  },
+  {
+    "id_estudiante": 3,
+    "nombre": "juana",
+    "carrera": "sistemas"
+  },
+  {
+    "id_estudiante": 4,
+    "nombre": "Alberto",
+    "carrera": "tecnico en sistemas"
+  },
+  {
+    "id_estudiante": 6,
+    "nombre": "sebastian",
+    "carrera": "quimica"
+  },
+  {
+    "id_estudiante": 7,
+    "nombre": "paulina",
+    "carrera": "derecho"
+  },
+  {
+    "id_estudiante": 8,
+    "nombre": "manuela",
+    "carrera": "contaduria"
+  }
 ]
