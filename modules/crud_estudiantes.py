@@ -81,8 +81,7 @@ def mostrar_estudiantes():
 
 def actualizar_estudiante():
     datos = cargar_datos("sg-matriculas/data/estudiantes.json")
-
-    console.print(Panel("[bold yellow]🔄 Actualizar Informacion de Estudiante[/bold yellow]", border_style="yellow", expand=False))
+    console.print(Panel("[bold yellow]🔄 Actualizar Informacion de Estudiante[/bold yellow]",border_style="yellow",expand=False))
     mostrar_estudiantes()
 
     try:
@@ -95,19 +94,21 @@ def actualizar_estudiante():
         if estudiante["id_estudiante"] == id_buscar:
             nombre = input("Nuevo nombre: ").strip()
             carrera = input("Nueva carrera: ").strip()
+
+            if nombre == "" and carrera == "":
+                console.print("[bold yellow]⚠ No ingreso datos para actualizar.[/bold yellow]")
+                return
             
             if nombre != "":
                 estudiante["nombre"] = nombre
+
             if carrera != "":
                 estudiante["carrera"] = carrera
-                
-            guardar_datos("sg-matriculas/data/estudiantes.json", datos)
 
+            guardar_datos("sg-matriculas/data/estudiantes.json", datos)
             console.print("[bold green]✔ Estudiante actualizado.[/bold green]")
             return
-            
     console.print("[bold red]✖ ID no encontrado.[/bold red]")
-
 
 def eliminar_estudiante():
     datos = cargar_datos("sg-matriculas/data/estudiantes.json")
