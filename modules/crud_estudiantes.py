@@ -172,8 +172,11 @@ def ver_cursos_estudiante():
             table.add_column("Nombre Curso")
             table.add_column("Creditos", justify="center")
 
+            # Recorre la lista de id de curso que tiene registrada la matricula
             for id_curso_individual in matricula["id_curso"]:
+                # Recorre todos los cursos registrados
                 for curso in cursos:
+                    # Comprueba si el id del curso actual coincide con el id de la matricula
                     if curso["id_curso"] == id_curso_individual:
                         table.add_row(
                             str(curso["id_curso"]),
