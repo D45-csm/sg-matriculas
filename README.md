@@ -14,17 +14,18 @@
 ## Descripcion general
 
 ### Entidades 
-* **estudiantes**
- *id del estudiante: int
- *nombre str:
- *carrera str:
+* 🟢  **estudiantes**
+ * id del estudiante: int
+ * nombre: str
+ * carrera: str
 
-* **cursos**
- *id del curso: int
- *nombre del curso: str
- *numero de creditos: int
+* 🟢 **cursos**
+ * id del curso: int
+ * nombre del curso: str
+ * numero de creditos: int
 
-* **matriculas(relacion entre estudiante y curso)**
+
+* 🟢 **matriculas(relacion entre estudiante y curso)**
  * id de matricula: int
  * id estudiante: int
  * id curso: int
