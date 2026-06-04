@@ -4,9 +4,9 @@
 >diseñada para la gestion de estudiantes, cursos y las matriculas de los estudiantes
 
 ## Developers del proyecto 🌟👨‍💻👩‍💻
-*Juan Sebastian Girata (usuario de Github: **[Juanchis2004](https://github.com/Juanchis2004)**)
-*Leidy Daniela Perez Rodriguez (usuario de Github: **[danii-11](https://github.com/danii-11))**
-*Daniel Acosta Gonzalez (usuario de Github: **[D45-csm](https://github.com/D45-csm)**)
+ * Juan Sebastian Girata (usuario de Github: **[Juanchis2004](https://github.com/Juanchis2004)**)
+ * Leidy Daniela Perez Rodriguez (usuario de Github: **[danii-11](https://github.com/danii-11))**
+ * Daniel Acosta Gonzalez (usuario de Github: **[D45-csm](https://github.com/D45-csm)**)
 
 **Instructores:**  
 - 🧑‍🏫 Instructor: Andres Felipe Sandoval 
@@ -14,21 +14,21 @@
 ## Descripcion general
 
 ### Entidades 
--**estudiantes**
- -id del estudiante: int
- -nombre str:
- -carrera str:
+***estudiantes**
+ *id del estudiante: int
+ *nombre str:
+ *carrera str:
 
--**cursos**
- -id del curso: int
- -nombre del curso: str
- -numero de creditos: int
+***cursos**
+ *id del curso: int
+ *nombre del curso: str
+ *numero de creditos: int
 
--**matriculas(relacion entre estudiante y curso)**
- -id de matricula: int
- -id estudiante: int
- -id curso: int
- -periodo academico: str
+* **matriculas(relacion entre estudiante y curso)**
+ * id de matricula: int
+ * id estudiante: int
+ * id curso: int
+ * periodo academico: str
 
 ### Modulos del proyecto:
 -modulo de estudiantes👨‍🎓
@@ -45,9 +45,9 @@ los datos se guardan en 3 archivos json, que son estudiantes, cursos y matricula
 
 **lista**[
 
-  -**diccionario(registro)**{
+  * **diccionario(registro)**{
 
-   -**datos(clave:valor)**
+   * **datos(clave:valor)**
 
    }
 
@@ -74,5 +74,5 @@ los datos se guardan en 3 archivos json, que son estudiantes, cursos y matricula
 ] 
 ```
 
-😀**_¡agradecemos tu interes en nuestro proyecto, nos motivamos cada dia por mejorar!_**  😸😸😸
+😀 **_¡agradecemos tu interes en nuestro proyecto, nos motivamos cada dia por mejorar!_**  😸😸😸
 grupo numero 3
