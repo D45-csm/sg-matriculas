@@ -21,7 +21,7 @@ def crear_estudiante():
             if estudiante["nombre"].lower() == nombre.lower():
                 repetido = True
                 break
-        if repetido == True:
+        if repetido:
             console.print("[bold red]✖ Ese estudiante ya existe.[/bold red]")
         else:
             break
@@ -153,7 +153,7 @@ def ver_cursos_estudiante():
                 existe_estudiante = True
                 break
 
-        if existe_estudiante == True:
+        if existe_estudiante:
             break
         console.print("[bold red]✖ El ID de estudiante no existe. Intente de nuevo.[/bold red]")
 
