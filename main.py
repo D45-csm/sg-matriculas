@@ -1,6 +1,6 @@
 from modules.crud_estudiantes import menu_gestion_estudiantes, ver_cursos_estudiante
 from modules.matriculas import matricular_estudiante
-from modules.crud_cursos import menu_gestion_cursos, ver_creditos_estudiante, ver_estudiantes_de_curso, menu_gestion_cursos
+from modules.crud_cursos import menu_gestion_cursos, ver_creditos_estudiante, ver_estudiantes_de_curso
 from rich.console import Console
 from rich.panel import Panel
 from rich import box
